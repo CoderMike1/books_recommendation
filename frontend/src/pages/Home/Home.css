@@ -1,0 +1,126 @@
+/*main container*/
+.menu-container{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    gap:25vh
+}
+
+
+.tiles{
+    display:flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+.tile{
+    background: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+.tile:hover{
+    cursor:pointer;
+    background: #f0f0f0;
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 10px rgba(0,0,0,0.15);
+}
+
+.books-grid{
+    display:flex;
+    justify-content: center;
+}
+
+.red-button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.books-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.book-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 250px;
+  text-align: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+}
+
+.book-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.book-info {
+  padding: 15px;
+}
+
+.book-info h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.book-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+}
+.delete-button {
+  display: block;
+  width: 100%;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+.no-books-message {
+    color: #888;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-size:50px;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}

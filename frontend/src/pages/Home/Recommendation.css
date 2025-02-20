@@ -1,0 +1,66 @@
+.rec-buttons{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rec-buttons p{
+    font-size: 30px;
+    margin-top: 25px;
+    font-weight: bold;
+    color: #ffc600;
+}
+.get-rec-button{
+    background: linear-gradient(135deg, #fd565e, #ff8e53);
+    padding: 12px 24px;
+    border-radius: 12px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    font-size: 2rem;
+    box-shadow: 0 6px 15px rgba(253, 86, 94, 0.3);
+    border: none;
+    cursor:pointer;
+}
+
+.rec-books-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.rec-book-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 250px;
+  text-align: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.rec-book-card:hover {
+  transform: translateY(-5px);
+}
+
+.rec-book-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+.rec-book-info {
+  padding: 15px;
+}
+
+.rec-book-info h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.rec-book-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+}

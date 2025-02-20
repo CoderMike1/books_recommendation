@@ -1,0 +1,108 @@
+/*main container*/
+.search-container {
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+/*book search input*/
+.search-input {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+}
+
+/*h2 above the search input*/
+.search-h2 {
+    color: #fff;
+    background: linear-gradient(135deg, #fd565e, #ff8e53);
+    padding: 12px 24px;
+    border-radius: 12px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    box-shadow: 0 6px 15px rgba(253, 86, 94, 0.3);
+    border: none
+    }
+
+/*loading text*/
+.loading {
+  color: blue;
+  font-size: 14px;
+}
+
+/*error text*/
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+/*all suggestions containers*/
+.suggestions-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+/*specified suggestion container*/
+.suggestion {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.suggestion:hover {
+  background: #f9f9f9;
+}
+
+.book-thumbnail {
+  width: 50px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.no-results {
+  font-size: 14px;
+  color: #888;
+}
+.success {
+  color: #ffc500;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.add-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
