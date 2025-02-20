@@ -5,6 +5,7 @@
 ![React](https://img.shields.io/badge/React-19.0.0-blue?style=for-the-badge&logo=react)
 ![CSS](https://img.shields.io/badge/css-3?style=for-the-badge&logo=CSS)
 ![HTML](https://img.shields.io/badge/html-3?style=for-the-badge&logo=HTML)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter_notebook-blue?style=for-the-badge&logo=Jupyter)
 
 ## 📝 **Table of contents**
 * [General info](#-general-info)
